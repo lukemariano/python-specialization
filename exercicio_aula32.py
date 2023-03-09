@@ -47,6 +47,9 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 
 nome = input('Digite o seu nome: ')
 
+# TODO: Adicionar quantidade de caracteres mínima aceita. Ex: 3
+# TODO: Adicionar exibição do nome em capitalize.
+
 if nome is not None and nome.isalpha():
     qtd_letras_nome = len(nome)
     if qtd_letras_nome <= 4:
