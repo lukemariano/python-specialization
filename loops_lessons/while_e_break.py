@@ -21,3 +21,4 @@ while condicao:
         break # quebra o loop | procura o laço mais próximo dessa declaração
 
 print('Acabou')
+
